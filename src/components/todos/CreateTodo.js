@@ -5,6 +5,12 @@ class CreateTodo extends Component {
     super();
     this.state = { text: '' };
   }
+
+  handleChange(event) {
+    this.setState({
+      text: event.target.value
+    })
+  }
   render() {
     return(
       <div>
