@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } rom 'react-redux';
 
 class CreateTodo extends Component {
   constructor() {
