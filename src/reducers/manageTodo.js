@@ -6,3 +6,10 @@ export default function manageTodo(state = {
 
   return state;
 }
+
+state = {
+  todos: [
+    { text: 'buy groceries'}.
+    { text: 'watch netflix'}
+  ]
+}
