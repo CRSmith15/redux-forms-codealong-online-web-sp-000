@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { connect } rom 'react-redux';
 
+
+
 class CreateTodo extends Component {
   constructor() {
     super();
@@ -28,4 +30,4 @@ class CreateTodo extends Component {
   }
 }
 
-export default CreateTodo;
+export default connect(null, mapDispatchToProps)(CreateTodo);
